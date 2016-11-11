@@ -4,6 +4,8 @@
 
 <h2><%= article.title %></h2>
 <h3><%= article.text %></h3>
+<p><%= link_to 'показати', article_path(article) %> &nbsp
+<%= link_to 'редагувати', edit_article_path(article) %></p>
 
 <hr>
 
