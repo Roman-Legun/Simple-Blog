@@ -1,0 +1,10 @@
+<h1>Список статтiв.</h1>
+
+<% @article.each do |article| %>
+
+<h2><%= article.title %></h2>
+<h3><%= article.text %></h3>
+
+<hr>
+
+<% end %>
